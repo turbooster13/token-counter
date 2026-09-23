@@ -59,6 +59,15 @@ export const MODELS: ModelPricing[] = [
     pricingUrl: "https://www.anthropic.com/pricing",
   },
   {
+  id: "gpt-3.5-turbo",
+  label: "GPT-3.5 Turbo",
+  provider: "OpenAI",
+  encoding: "cl100k_base",
+  inputPerMillion: 0.5,
+  outputPerMillion: 1.5,
+  pricingUrl: "https://openai.com/api/pricing/",
+},
+  {
     id: "gemini-1.5-pro",
     label: "Gemini 1.5 Pro",
     provider: "Google",
